@@ -1,0 +1,42 @@
+
+Product{
+	name:"BaseJsonRPC"
+	files:[
+		//headers
+		path+"/qjsonwriter_p.h",
+		path+"/qjsonrpctcpserver.h",
+		path+"/qjsonrpcsocket_p.h",
+		path+"/qjsonrpcsocket.h",
+		path+"/qjsonrpcservicereply_p.h",
+		path+"/qjsonrpcservicereply.h",
+		path+"/qjsonrpcserviceprovider.h",
+		path+"/qjsonrpcservice.h",
+		path+"/qjsonrpcservice_p.h",
+		path+"/qjsonrpcmetatype.h",
+		path+"/qjsonrpcmessage.h",
+		path+"/qjsonrpclocalserver.h",
+		path+"/qjsonrpchttpserver.h",
+		path+"/qjsonrpchttpserver_p.h",
+		path+"/qjsonrpchttpclient.h",
+		path+"/qjsonrpcglobal.h",
+		path+"/qjsonrpcabstractserver.h",
+		path+"/qjsonrpcabstractserver_p.h",
+		path+"/qjsonparser_p.h",
+		path+"/qjson_p.h",
+		path+"/qjson_export.h",
+		path+"/http_parser.h",
+		//sources
+		path+"/qjsonwriter.cpp",
+		path+"/qjsonrpctcpserver.cpp",
+		path+"/qjsonrpcsocket.cpp",
+		path+"/qjsonrpcservicereply.cpp",
+		path+"/qjsonrpcserviceprovider.cpp",
+		path+"/qjsonrpcservice.cpp",
+		path+"/qjsonrpcmessage.cpp",
+		path+"/qjsonrpclocalserver.cpp",
+		path+"/qjsonrpchttpserver.cpp",
+		path+"/qjsonrpchttpclient.cpp",
+		path+"/qjsonrpcabstractserver.cpp",
+		path+"/http_parser.c"
+	]
+}

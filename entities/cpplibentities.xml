@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="CppLib">
+    <includes>
+		<include name="QStringList"/>
+		<include name="QDateTime"/>
+		<include name="QVariant"/>
+		<include name="cpplib_global.h"/>
+    </includes>
+    <classes>
+		<class name="ELoginResponse" export="CPPLIB_EXPORT">
+			<variable type="qint64" name="userID"/>
+			<variable type="QString" name="userName"/>
+			<variable type="qint64" name="cityID"/>
+			<variable type="QString" name="cityName"/>
+			<variable type="QString" name="swVersion"/>
+			<variable type="qint32" name="agreementVersion"/>
+			<variable type="qint32" name="respCreateUser"/>
+			<variable type="QString" name="serverSeed"/>
+			<variable type="bool" name="canExecute"/>
+			<variable type="bool" name="isProfileComplete"/>
+		</class>
+		<class name="EFirstSVCArg" export="CPPLIB_EXPORT">
+			<variable type="qint32" name="appType"/>
+			<variable type="qint32" name="argsCount"/>
+			<variable type="QString" name="userTempKey"/>
+			<variable type="QString" name="className"/>
+			<variable type="QString" name="functionName"/>
+		</class>
+		<class name="TPreference" export="CPPLIB_EXPORT">
+			<variable type="qint64" name="id"/>
+			<variable type="QString" name="config"/>
+		</class>
+		<class name="EBaseSetup" export="CPPLIB_EXPORT">
+			<variable type="qint32" name="width"/>
+			<variable type="qint32" name="height"/>
+			<variable type="QString" name="resourceDBPath"/>
+			<variable type="QString" name="appVersion"/>
+			<variable type="bool" name="isPreview"/>
+			<variable type="bool" name="recreateDBIfNewVersion"/>
+			<variable type="QList<QMetaObject>" name="entities" comparable="false"/>
+			<variable type="QString" name="svcBaseAddress"/>
+			<variable type="QString" name="svcCompleteAddress"/>
+			<variable type="QQmlApplicationEngine*" name="qmlEngine"/>
+			<variable type="QString" name="appOrganizationName"/>
+			<variable type="QString" name="appOrganizationDomain"/>
+			<variable type="QString" name="appName"/>
+			<variable type="QString" name="completeJavaPackagePath"/>
+		</class>
+		<class name="EMetaResponse" export="CPPLIB_EXPORT">
+			<variable type="qint32" name="responseType"/>
+			<variable type="QString" name="className"/>
+			<variable type="QJsonValue" name="value"/>
+		</class>
+	</classes>
+</project>

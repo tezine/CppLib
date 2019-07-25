@@ -1,0 +1,3 @@
+# CppLib
+C++ base library used in all Qt/QML projects. 
+It supports Google Firebase, Apple Push notifications, JSONRPC, REST, SQL, JNI interop...
